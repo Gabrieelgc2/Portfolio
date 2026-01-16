@@ -1,0 +1,82 @@
+    body{
+    background-color: black;
+    }
+    .container{
+    max-width: 1200px; /* Impede que o site fique largo demais */
+    margin: 0 auto;    /* Centraliza o bloco na tela */
+    padding: 0 20px;   /* Garante que no celular o texto não encoste no vidro */
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        line-height: 350%;
+    }
+    .logo{
+        font-family: 'Bebas-Neue', sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        letter-spacing: -1%;
+        color: white;
+    }
+    .teste{
+        display: flex;
+        gap: 30px;
+    }
+    .teste a {
+    color: #C7C7C7;
+    text-decoration: none; /* Remove o sublinhado azul padrão */
+    font-family: sans-serif; /* Ou a fonte que você preferir */
+    font-size: 16px;
+}
+    .hero-text{
+        color: white;
+    }
+    .hero-text p{
+        color: #C7C7C7;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+    }
+
+    h1{
+    position: relative;
+    top: 30px;
+    font-family: 'Bebas-Neue', sans-serif;
+    font-weight: 400;                
+    font-size: 70px;                     
+    line-height: 90%;                    
+    letter-spacing: 0%;                   
+    color: #FFFFFF;                      
+    text-transform: uppercase;
+    }
+    .btn-primary{
+        position: relative;
+        top: 15px;
+        right: 10px;
+        background-color: #D3E97A;
+        color: black;
+        border: none;
+        padding: 15px 30px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 25px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+    }
+    .contact-row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-img{
+    flex: 1;             
+    display: flex;
+    justify-content: flex-end;
+    }
+    .hero-img img{
+        max-width: 100%;
+        width: 600px;
+        height: 750px;
+        border-radius: 90px;
+    }
