@@ -86,6 +86,8 @@
     #separation{
         margin-top: 40px;
         border: 1px solid #484848;   
+        position: relative;
+        top: 52px;
     }
     .text-Projects{
         font-family: 'Bebas-Neue', sans-serif;  
@@ -95,11 +97,12 @@
         margin: 0 auto;
     }
     .projects{
-        margin-left: 50px;
+        margin: 0 auto;
         max-width: 100%;
         max-height: 100%;
         width: 1225px;
-        height: 2418px;
+        height: 1900px;
+        margin-top: 100px;
     }
     p{
         font-family: 'Manrope', sans-serif;
@@ -111,4 +114,160 @@
         font-family: "Manrope", sans-serif;
         font-size: 32px;
         font-weight: 600;
+        color: #FFFFFF
+    }
+    .project-card{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-card2{
+        margin-top: 50px;
+    }
+    .project-card3{
+        margin-top: 50px;
+    }
+    .project-image{
+        width: 100%;
+        height: 400px;
+        padding: 25px;
+        padding-top: 50px;
+        border: 12px solid #1A1A1A; 
+        border-radius: 20px;
+    } 
+    .project-imageCheck{
+        width: 100%;
+        height: 400px;
+        padding: 25px;
+        padding-top: 50px;
+        border: 12px solid #1A1A1A; 
+        border-radius: 20px;
+    }
+    .project-imageCheck  img{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    }
+    .project-image img{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    }
+    .project-info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .project-info1{
+        position: relative;
+        bottom: 25px;
+    }
+    .project-info hr{
+        border: 1px solid #484848;
+        align-self: stretch;
+        width: 100%;
+    }
+    .project-info p{
+        position: relative;
+        bottom: 30px;
+    }
+    .project-card2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-card3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Project-Year{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Project-Role{
+    display: flex;
+    justify-content: space-between;
+    }
+    .About-me{
+        max-width: 100%;
+        max-height: 100%;
+        width: 1225px;
+        height: 1300px;
+        margin: 0 auto;
+    }
+    .text-about-me{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .text-about-me h1{
+        flex: 1;
+        margin: 0;
+    }
+    .text-about-me2{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .form{
+        max-width: 100%;
+        max-height: 100%;
+        width: 1225px;
+        height: 700px;
+        margin: 0 auto;
+    }
+    .text-form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-form h1{
+        margin: 0;
+    }
+    .form-original{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #nome{
+        position: relative;
+        right: 50px;
+        width: 500px;
+        height: 51px;
+        background-color: #1A1A1A;
+        padding-left: 20px;
+        border-radius: 7px;
+    }
+    #email{
+        position: relative;
+        right: 50px;
+        width: 500px;
+        height: 51px;
+        background-color: #1A1A1A;
+        padding-left: 20px;
+        border-radius: 7px;
+    }
+    #mensagem{
+        position: relative;
+        right: 83px;
+        width: 500px;
+        height: 210px;
+        background-color: #1A1A1A;
+        padding-left: 20px;
+        border-radius: 7px;
+    }
+    .botao button{
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        background-color: #D3E97A;
+        border-radius: 25px;
+        width: 130px;
+        height: 54px;
+    }
+    .texto-conectar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Midias{
+        display: flex;
+        gap: 20px;
     }
