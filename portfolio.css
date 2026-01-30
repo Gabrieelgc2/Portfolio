@@ -161,6 +161,10 @@
         position: relative;
         bottom: 25px;
     }
+    .project-info2{
+        display: flex;
+        justify-content: space-between;
+    }
     .project-info hr{
         border: 1px solid #484848;
         align-self: stretch;
