@@ -7,6 +7,272 @@
     margin: 0 auto;    /* Centraliza o bloco na tela */
     padding: 0 20px;   /* Garante que no celular o texto não encoste no vidro */
     }
+
+    @media (max-width: 1024px) {
+        /* Ajusta containers grandes para não ultrapassar a tela */
+        .projects,
+        .About-me,
+        .form,
+        .Experience {
+            width: 100% !important;
+            max-width: 100%;
+            padding: 0 20px;
+        }
+        
+        /* Hero section: empilha texto e imagem verticalmente */
+        .contact-row {
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .hero-img {
+            justify-content: center;
+        }
+        
+        .hero-img img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+        
+        /* Cards de projeto: empilha imagem e info */
+        .project-card,
+        .project-card2,
+        .project-card3 {
+            flex-direction: column;
+        }
+        
+        .project-image img,
+        .project-imageCheck img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .project-info {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+        
+        /* Sobre mim: empilha conteúdo */
+        .text-about-me {
+            flex-direction: column;
+            height: auto;
+        }
+        
+        .about-image-container {
+            margin-top: 40px;
+        }
+        
+        /* Habilidades: empilha título e tags */
+        .capabilities {
+            flex-direction: column;
+            gap: 40px;
+        }
+        
+        .text-capabilities {
+            margin-top: 0;
+        }
+        
+        /* Experiências: empilha título e lista */
+        .Experience-Flex {
+            flex-direction: column;
+        }
+        
+        .Experience-Flex h1 {
+            margin-bottom: 30px;
+        }
+        
+        /* Formulário: empilha texto e form */
+        .text-form {
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        #nome,
+        #email,
+        #mensagem {
+            width: 100%;
+            max-width: 100%;
+            right: 0;
+        }
+    }
+    
+    /* MOBILE: até 768px */
+    @media (max-width: 768px) {
+        /* Header: empilha logo e menu */
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            line-height: normal;
+        }
+        
+        .teste {
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+        }
+        
+        /* Títulos menores */
+        h1 {
+            font-size: 40px !important;
+        }
+        
+        .text-Projects {
+            font-size: 48px;
+        }
+        
+        /* Hero section */
+        .hero-text h1 {
+            font-size: 36px !important;
+            top: 0;
+        }
+        
+        .hero-text p {
+            font-size: 16px;
+        }
+        
+        .btn-primary {
+            width: 100%;
+            top: 0;
+            right: 0;
+            margin-top: 20px;
+        }
+        
+        /* Projetos */
+        .projects {
+            margin-top: 50px;
+            height: auto;
+        }
+        
+        .project-image,
+        .project-imageCheck {
+            padding: 15px;
+            padding-top: 30px;
+        }
+        
+        h2 {
+            font-size: 24px;
+        }
+        
+        /* Sobre mim */
+        .About-me {
+            height: auto;
+            padding-bottom: 40px;
+        }
+        
+        .text-about-me h1 {
+            font-size: 48px !important;
+        }
+        
+        .text-about-me2 p {
+            font-size: 20px !important;
+        }
+        
+        .about-full-img {
+            height: 400px;
+        }
+        
+        /* Habilidades */
+        .capabilities h1 {
+            font-size: 48px !important;
+            margin-bottom: 0;
+        }
+        
+        .bordas span {
+            font-size: 14px;
+            padding: 15px 30px !important;
+        }
+        
+        /* Experiências */
+        .Experience {
+            height: auto;
+            padding-bottom: 40px;
+        }
+        
+        .Experience-Flex h1 {
+            font-size: 48px !important;
+        }
+        
+        .role-title {
+            font-size: 20px;
+        }
+        
+        .date {
+            font-size: 16px;
+        }
+        
+        /* Formulário */
+        .form {
+            height: auto;
+            padding-bottom: 40px;
+        }
+        
+        .text-form h1 {
+            font-size: 48px !important;
+        }
+    }
+    
+    /* MOBILE PEQUENO: até 480px */
+    @media (max-width: 480px) {
+        .container {
+            padding: 0 15px;
+        }
+        
+        .logo {
+            font-size: 24px;
+        }
+        
+        h1 {
+            font-size: 32px !important;
+        }
+        
+        .text-Projects {
+            font-size: 36px;
+        }
+        
+        .hero-text h1 {
+            font-size: 28px !important;
+        }
+        
+        .hero-img img {
+            max-width: 100%;
+        }
+        
+        .project-image,
+        .project-imageCheck {
+            padding: 10px;
+            padding-top: 20px;
+        }
+        
+        .text-about-me h1 {
+            font-size: 36px !important;
+        }
+        
+        .capabilities h1 {
+            font-size: 36px !important;
+        }
+        
+        .Experience-Flex h1 {
+            font-size: 36px !important;
+        }
+        
+        .text-form h1 {
+            font-size: 36px !important;
+        }
+        
+        .bordas span {
+            font-size: 12px;
+            padding: 12px 20px !important;
+        }
+
+        .project-card,
+        .project-card2,
+        .project-card3 {
+            flex-direction: column;
+        }
+    }
     .header{
         display: flex;
         justify-content: space-between;
@@ -77,8 +343,9 @@
     justify-content: flex-end;
     }
     .hero-img img{
-    width: 480px;
-    height: 470px;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
     object-fit: cover;  /* Não deixa a foto achatar */
     object-position: 0% 55%; /* Posicionamento: 0% na horizontal e 100% na vertical (foca na base e corta o topo) */
     border-radius: 24px;
@@ -99,10 +366,10 @@
     }
     .projects{
         margin: 0 auto;
-        max-width: 100%;
-        max-height: 100%;
-        width: 1225px;
-        height: 1900px;
+        width: 100%;
+        height: 100%;
+        max-width: 1225px;
+        max-height: 1900px;
         margin-top: 100px;
     }
     p{
