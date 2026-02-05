@@ -7,6 +7,30 @@
     margin: 0 auto;    /* Centraliza o bloco na tela */
     padding: 0 20px;   /* Garante que no celular o texto não encoste no vidro */
     }
+    
+    @media(max-width: 4096px){
+        .role-title{
+            font-size: 24px;
+        }
+
+        h1{
+            font-size: 70px; 
+        }
+        .text-projects{
+            font-size: 76px;
+        }
+
+        /* Formulário: largura proporcional para telas grandes (4096px) */
+        #nome,
+        #email {
+            width: 425px;
+            height: 56px;
+        }
+        #mensagem {
+            width: 425px;
+            height: 210px;
+        }
+    }
 
     @media (max-width: 1024px) { /* Tablet /
         /* Ajusta containers grandes para não ultrapassar a tela */
@@ -19,6 +43,18 @@
             padding: 0 20px;
         }
         
+        .description{
+            font-size: 18px;
+        }
+
+        h1{
+            font-size: 70px; 
+        }
+
+        .text-projects{
+            font-size: 76px;
+        }
+
         /* Hero section: empilha texto e imagem verticalmente */
         .contact-row {
             flex-direction: column;
@@ -96,8 +132,25 @@
         #email,
         #mensagem {
             width: 100%;
-            max-width: 100%;
+            max-width: 600px;
             right: 0;
+        }
+        #nome,
+        #email {
+            height: 48px;
+        }
+        #mensagem {
+            height: 180px;
+        }
+
+        .role-title{
+            font-size: 24px;
+        }
+        .date{
+            font-size: 18px;
+        }
+        .company{
+            font-size: 18px;
         }
     }
     
@@ -118,7 +171,7 @@
         
         /* Títulos menores */
         h1 {
-            font-size: 40px !important;
+            font-size: 40px
         }
         
         .text-Projects {
@@ -204,6 +257,9 @@
         .date {
             font-size: 16px;
         }
+        .company{
+            font-size: 14px;
+        }
         
         /* Formulário */
         .form {
@@ -214,10 +270,27 @@
         .text-form h1 {
             font-size: 48px !important;
         }
+
+        /* Formulário: proporcional para 768px */
+        #nome,
+        #email,
+        #mensagem {
+            width: 100%;
+            max-width: 100%;
+            right: 0;
+        }
+        #nome,
+        #email {
+            height: 46px;
+        }
+        #mensagem {
+            height: 160px;
+        }
     }
     
     /* MOBILE PEQUENO: até 480px */
     @media (max-width: 480px) {
+
         .container {
             padding: 0 15px;
         }
@@ -225,13 +298,17 @@
         .logo {
             font-size: 24px;
         }
-        
-        h1 {
-            font-size: 32px !important;
+
+        .text-about-me2 a span{
+            display: none;
         }
+        .text-about-me2 a{
+            display: none;
+        }
+
         
         .text-Projects {
-            font-size: 36px;
+            font-size: 23px;
         }
         
         .hero-text h1 {
@@ -242,11 +319,10 @@
             max-width: 100%;
         }
         
-        .project-image,
-        .project-imageCheck {
-            padding: 10px;
-            padding-top: 20px;
-            width: 80%;
+        .project-imageCheck{
+            position: relative;
+            width: 50%;
+            right: 10px;
         }
         .project-info p{
             font-size: 15px;
@@ -256,7 +332,19 @@
         }
         
         .text-about-me h1 {
+            position: relative;
+            top: 480px;
             font-size: 23px !important;
+        }
+        .text-about-me{
+            position: relative;
+            top: 750px;
+        }
+        .text-about-me a{
+            width: 100%;
+        }
+        .about-image-container{
+            display: none;
         }
         
         .capabilities h1 {
@@ -264,7 +352,10 @@
         }
         
         .Experience-Flex h1 {
-            font-size: 36px !important;
+            font-size: 23px !important;
+        }
+        .role-title{
+            font-size: 18px;
         }
         
         .text-form h1 {
@@ -284,6 +375,64 @@
             height: 150px;
         }
 
+        .date{
+            font-size: 15px;
+        }
+        .company{
+            font-size: 15px;
+        }
+
+        .texto-conectar h1{
+            font-size: 24px !important;
+        }
+        .description{
+            font-size: 16px;
+        }
+        .texto-conectar p{
+            font-size: 15px;
+        }
+        .projects p{
+            font-size: 16px;
+        }
+
+        /* Formulário: proporcional para 480px */
+        #nome,
+        #email,
+        #mensagem {
+            width: 100%;
+            max-width: 300px;
+            right: 0;
+        }
+        #nome,
+        #email {
+            height: 44px;
+        }
+        #mensagem {
+            position: relative;
+            left: -5px;
+            height: 140px;
+        }
+        .experience-list{
+            position: relative;
+            bottom: 115px;
+        }
+        .separation-aboutme{
+            position: relative;
+            top: 50px;
+            width: 490px;
+        }
+        .capabilities h1{
+            position: relative;
+            top: 820px;
+            right: 250px;
+        }
+        .capabilities{
+            position: relative;
+            bottom: 300px;
+        }
+        .text-about-me2 span{
+            font-size: 16px !important;
+        }
     }
     .header{
         display: flex;
@@ -301,12 +450,14 @@
         display: flex;
         gap: 30px;
     }
+    
     .teste a {
     color: #C7C7C7;
     text-decoration: none; /* Remove o sublinhado azul padrão */
     font-family: sans-serif; /* Ou a fonte que você preferir */
     font-size: 16px;
 }
+
     .hero-text{
         flex: 1;
         color: white;
@@ -320,16 +471,17 @@
         letter-spacing: 0%;
     }
 
-    h1{
+    h1 {
+
     position: relative;
     top: 30px;
     font-family: 'Bebas-Neue', sans-serif;
-    font-weight: 400;                
-    font-size: 70px;                     
+    font-weight: 400;                                    
     line-height: 90%;                    
     letter-spacing: 0%;                   
     color: #FFFFFF;                      
     text-transform: uppercase;
+    
     }
     .btn-primary{
         position: relative;
@@ -373,7 +525,6 @@
         font-family: 'Bebas-Neue', sans-serif;  
         color: #FFFFFF;
         font-weight: 600;
-        font-size: 76px;
         margin: 0 auto;
     }
     .projects{
@@ -515,8 +666,6 @@
     #nome{
         position: relative;
         right: 50px;
-        width: 500px;
-        height: 51px;
         background-color: #1A1A1A;
         padding-left: 20px;
         border-radius: 7px;
@@ -524,8 +673,6 @@
     #email{
         position: relative;
         right: 50px;
-        width: 500px;
-        height: 51px;
         background-color: #1A1A1A;
         padding-left: 20px;
         border-radius: 7px;
@@ -533,8 +680,6 @@
     #mensagem{
         position: relative;
         right: 83px;
-        width: 500px;
-        height: 210px;
         background-color: #1A1A1A;
         padding-left: 20px;
         border-radius: 7px;
@@ -630,7 +775,6 @@
 .role-title {
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
-    font-size: 24px;
     color: #FFFFFF;
     margin: 0;
 }
@@ -638,7 +782,6 @@
 .date {
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
-    font-size: 18px;
     color: #C7C7C7;
 }
 
@@ -652,7 +795,6 @@
 
 .description {
     font-family: 'Manrope', sans-serif;
-    font-size: 18px;
     color: #C7C7C7;
     line-height: 1.6;
 }
