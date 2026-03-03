@@ -18,7 +18,7 @@ function Header() {
 
                 </i>
 
-            <div className={`absolute xl:hidden top-12 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-base 
+            <div className={`absolute xl:hidden top-16 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-base 
                 transform transition-transform ${isMenuOpen ? "opacity-100" : "opacity-0"} 
                 `}
 
