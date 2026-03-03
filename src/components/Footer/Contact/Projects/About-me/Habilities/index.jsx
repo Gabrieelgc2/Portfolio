@@ -32,7 +32,7 @@ function Habilities(){
       {/* Front-end */}
       <div className="space-y-2">
         <h3 className="text-blue-400 font-bold uppercase tracking-widest text-xs">Interface Visual</h3>
-        <p>Interfaces modernas e responsivas com <span className="text-gray-100">React, TypeScript, Javascrit TailwindCSS</span>, garantindo fidelidade visual em qualquer dispositivo.</p>
+        <p>Interfaces modernas e responsivas com <span className="text-gray-100">React, TypeScript, Javascript TailwindCSS</span>, garantindo fidelidade visual em qualquer dispositivo.</p>
       </div>
 
       {/* Back-end */}
