@@ -13,6 +13,8 @@ import CSS3 from "../../../../../../img/CSS3.png";
 import HTML from "../../../../../../img/HTML.png";
 import AWS from "../../../../../../img/AWS.png";
 import TailwindCSS from "../../../../../../img/TailwindCSS.png";
+import Java from "../../../../../../img/Java.png";
+import SpringBoot from "../../../../../../img/SpringBoot.png";
 
 import './styles.css';
 
@@ -32,13 +34,13 @@ function Habilities(){
       {/* Front-end */}
       <div className="space-y-2">
         <h3 className="text-blue-400 font-bold uppercase tracking-widest text-xs">Interface Visual</h3>
-        <p>Interfaces modernas e responsivas com <span className="text-gray-100">React, TypeScript, Javascript TailwindCSS</span>, garantindo fidelidade visual em qualquer dispositivo.</p>
+        <p>Interfaces modernas e responsivas com <span className="text-gray-100">React, TypeScript, Javascript TailwindCSS, HTML5, CSS3</span>, garantindo fidelidade visual em qualquer dispositivo.</p>
       </div>
 
       {/* Back-end */}
       <div className="space-y-2">
         <h3 className="text-green-400 font-bold uppercase tracking-widest text-xs">Lógica & Dados</h3>
-        <p>Sistemas robustos e seguros construídos com <span className="text-gray-100">Java e Spring Boot</span>, focados em regras de negócio complexas.</p>
+        <p>Sistemas robustos e seguros construídos com <span className="text-gray-100">Java e MySQL</span>, focados em regras de negócio complexas.</p>
       </div>
 
       {/* DevOps */}
@@ -66,32 +68,33 @@ function Habilities(){
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
+
+          <SwiperSlide>
+          <img src={React} />
+        </SwiperSlide>
         <SwiperSlide>
           <img src={Typescript} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={MYSQL} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Python} />
         </SwiperSlide>
         <SwiperSlide>
         <img src={Javascript} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={React} />
+        <img src={TailwindCSS} />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={HTML} />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={CSS3} />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={Java} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={MYSQL} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Docker} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={CSS3} />
-        </SwiperSlide>
-          <SwiperSlide>
-          <img src={HTML} />
-        </SwiperSlide>
-            <SwiperSlide>
-          <img src={TailwindCSS} />
         </SwiperSlide>
             <SwiperSlide>
           <img src={AWS} />
