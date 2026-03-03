@@ -4,7 +4,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Javascript from "../../../../../../img/Javascript.png";
-import MYSQL from "../../../../../../img/MYSQL.png";
+import MYSQL from "../../../../../../img/MySQL.png";
 import Python from "../../../../../../img/Python.png";
 import Typescript from "../../../../../../img/Typescript.png";
 import React from"../../../../../../img/React.png";
