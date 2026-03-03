@@ -1,0 +1,57 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 85%;
+}
+
+
+/*@media(min-width: 1024px){
+.swiper-pagination{
+  background-color: purple;
+  max-width: 300px;
+  margin-left: 500px;
+}
+}
+
+@media(max-width: 400px){
+  .swiper-pagination{
+  background-color: purple;
+  max-width: 300px;
+  margin-left: 20px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+  .swiper-pagination{
+  background-color: purple;
+  max-width: 300px;
+  margin-left: 200px;
+}
+}
+*/
+.swiper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  position: static !important; /* Remove o posicionamento absoluto padrão */
+  background-color: purple;
+  max-width: 600px;
+  margin: 10px auto; /* Garante a centralização e um espaçamento */
+  width: 100%; /* Permite que o max-width funcione */
+}

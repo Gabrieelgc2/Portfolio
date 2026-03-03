@@ -1,0 +1,40 @@
+   .containerhome {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+
+   .heroText p {
+       color: #C7C7C7;
+       font-family: 'Manrope', sans-serif;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 150%;
+       letter-spacing: 0%;
+   }
+
+   .heroImg {
+       flex: 1;
+       display: flex;
+       justify-content: flex-end;
+   }
+
+   .heroImg img {
+       width: 80%;
+       height: 90%;
+       object-fit: cover;
+       /* Não deixa a foto achatar */
+       object-position: 0% 55%;
+       /* Posicionamento: 0% na horizontal e 100% na vertical (foca na base e corta o topo) */
+       border-radius: 24px;
+       margin-top: 20px;
+   }
+
+   @media(min-width: 1024px){
+    .heroImg img {
+        width: 70%;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+   }

@@ -1,0 +1,28 @@
+    .header{
+        display: flex;
+        justify-content: space-between;
+        line-height: 350%;
+    }
+
+    .logo{
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: -1%;
+        color: var(--secondary);
+    }
+
+    .nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav a {
+    color: var(--terciary);
+    text-decoration: none;
+    font-size: 16px;
+    }
+
+    .nav a:hover{
+        color: var(--secondary);
+        transition: 0.3s;
+    }

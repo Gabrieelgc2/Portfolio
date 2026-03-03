@@ -1,0 +1,29 @@
+    .textProjetos {
+        font-family: 'Bebas-Neue', sans-serif;  
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 24px;
+        top: 28px;
+    }
+
+    .label {
+        color: #FFFFFF;
+    }
+
+    .value {
+        color: #C7C7C7;
+    }
+
+    .github-link {
+        color: #D3E97A;
+        text-decoration: none;
+        border-bottom: 2px solid #D3E97A;
+        padding-bottom: 5px;
+        border-width: medium;
+    }
+
+    @media(min-width: 1024px){
+        .textProjetos {
+            font-size: 60px;
+        }
+    }
