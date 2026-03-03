@@ -29,7 +29,7 @@ function ContactMe() {
     {/* COLUNA 2: Formulário de Contato */}
     <form className="flex flex-col gap-4 bg-form p-8 rounded-lg border border-gray-800" action="https://api.staticforms.dev/submit" method="POST">
     <input type="hidden" name="apiKey" value="sf_9n26bicekc2im58d4bn4358i"/>
-    <input type="hidden" name="redirectTo" value="http://localhost:5173/thankyou.html"/>
+    <input type="hidden" name="redirectTo" value="https://gabrielgarcia-portfolio.vercel.app/thankyou.html"/>
 
       <div>
         <label className="text-white text-xs font-bold uppercase mb-2 block" for="name">Nome</label>
