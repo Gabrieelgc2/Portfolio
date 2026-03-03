@@ -1,5 +1,5 @@
 import styles from './Contact.module.css'
-import minhaFoto from '../../../assets/imgs/PortfolioFOTO.jpg';
+import minhaFoto from '../../../img/PortfolioFOTO.jpg';
 
 function Contact() {
     return(

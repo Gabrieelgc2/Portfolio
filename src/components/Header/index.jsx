@@ -1,4 +1,4 @@
-import logo from '../../assets/imgs/logo.jpg';
+import logo from '../../img/logo.jpg';
 import { useState } from 'react';
 
 function Header() {

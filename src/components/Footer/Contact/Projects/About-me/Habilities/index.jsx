@@ -1,20 +1,18 @@
-import { motion } from "framer-motion";
-import { useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import Javascript from "../../../../../../assets/imgs/Javascript.png";
-import MYSQL from "../../../../../../assets/imgs/MYSQL.png";
-import Python from "../../../../../../assets/imgs/Python.png";
-import Typescript from "../../../../../../assets/imgs/Typescript.png";
-import React from"../../../../../../assets/imgs/React.png";
-import Docker from "../../../../../../assets/imgs/DOCKER.png";
-import CSS3 from "../../../../../../assets/imgs/CSS3.png";
-import HTML from "../../../../../../assets/imgs/HTML.png";
-import AWS from "../../../../../../assets/imgs/AWS.png";
-import TailwindCSS from "../../../../../../assets/imgs/TailwindCSS.png";
+import Javascript from "../../../../../../img/Javascript.png";
+import MYSQL from "../../../../../../img/MYSQL.png";
+import Python from "../../../../../../img/Python.png";
+import Typescript from "../../../../../../img/Typescript.png";
+import React from"../../../../../../img/React.png";
+import Docker from "../../../../../../img/DOCKER.png";
+import CSS3 from "../../../../../../img/CSS3.png";
+import HTML from "../../../../../../img/HTML.png";
+import AWS from "../../../../../../img/AWS.png";
+import TailwindCSS from "../../../../../../img/TailwindCSS.png";
 
 import './styles.css';
 

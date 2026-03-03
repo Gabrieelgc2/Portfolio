@@ -10,9 +10,9 @@ import {
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-import MiniBank from "../../../../../assets/imgs/MiniBank.jpg";
-import TechMoms from "../../../../../assets/imgs/Techmoms.png";
-import AirCheck from "../../../../../assets/imgs/Air_Check.png";
+import MiniBank from "../../../../../img/MiniBank.jpg";
+import TechMoms from "../../../../../img/Techmoms.png";
+import AirCheck from "../../../../../img/Air_Check.png";
  
 export function CardDefault() {
 
@@ -93,7 +93,8 @@ export function CardDefault() {
       />
       <div className="absolute bottom-0 w-full bg-black/60 p-2 text-white text-center">
         {projeto.titulo}
-        <p className="text-white/50 text-xs uppercase tracking-widest">Clique aqui</p>
+        <p className="text-white/50 text-xs uppercase tracking-widest">CLIQUE AQUI</p>
+
       </div>
     </div>
 
